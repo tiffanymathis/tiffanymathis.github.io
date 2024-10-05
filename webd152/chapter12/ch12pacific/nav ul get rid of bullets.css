@@ -1,0 +1,8 @@
+nav ul {
+  /* I added this, not in assignment video */
+  list-style-type: none; /* to get rid of bullet points entirely */
+  padding-left: 0; /* to make text truly centered */
+  /* Bullet points were on left, while text was centered. 
+  To align bullet points with text in the center:
+  list-style-position: inside; */
+}
