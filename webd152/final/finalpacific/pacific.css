@@ -222,6 +222,7 @@ video {
     border-bottom: 2px solid #1b69b2; /* bdb2-solid#1b69b2 */
   }
 }
+
 @media (min-width: 600px) {
   nav ul {
     display: flex; /* df */
@@ -312,30 +313,27 @@ video {
     }
   }
 }
-
 .team-container {
-  display: flex;
-  flex-direction: column; 
+  display: grid; 
+  grid-template-columns: 1fr 3fr; 
+  gap: 10px; 
   margin: 20px; 
 }
 
 .team-member {
-  display: flex; 
-  align-items: flex-start; 
-  margin: 10px 0; 
+  display: contents; 
 }
 
 .team-photo {
-  flex: 0 0 180px; 
-  margin-right: 20px; 
+  max-width: 220px; 
 }
 
 .team-bio {
-  flex: 1; 
+  margin-top: 0; 
+  padding-right: 40px;
 }
 
 .team-photo img {
   width: 100%; 
   height: auto; 
 }
-
